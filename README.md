@@ -11,5 +11,5 @@ This is the first step towards building our first full web application: the AirB
 
 
 ### Authors
-Leul Teklu <leul99teklu@gmail.com>
-Adam Tilahun <tadam687@gmail.com>
+* Leul Teklu <leul99teklu@gmail.com>
+* Adam Tilahun <tadam687@gmail.com>
