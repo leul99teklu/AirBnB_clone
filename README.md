@@ -7,4 +7,9 @@
 - [Description](#Description)
 
 ## Description :house:
-This is the first step towards building our first full web application: the AirBnB clone. 
+This is the first step towards building our first full web application: the AirBnB clone.
+
+
+### Authors
+Leul Teklu <leul99teklu@gmail.com>
+Adam Tilahun <tadam687@gmail.com>
