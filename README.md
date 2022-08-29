@@ -6,5 +6,5 @@
 
 - [Description](#Description)
 
-## Description
+## Description :house:
 This is the first step towards building our first full web application: the AirBnB clone. 
