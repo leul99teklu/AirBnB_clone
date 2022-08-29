@@ -1,2 +1,2 @@
-# AirBnB_clone [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/luischaparroc/AirBnB_clone/blob/master/LICENSE) [![Build Status](https://travis-ci.org/luischaparroc/AirBnB_clone.svg?branch=master)](https://travis-ci.org/luischaparroc/AirBnB_clone)
-![HBnB Logo](./image/hbnb_logo.png)
+# AirBnB_clone [![License: MIT](https://img.shields.io/badge/License-GNU-yellow.svg)](https://github.com/leul99teklu/AirBnB_clone/master/LICENSE) [![Build Status](https://travis-ci.org/leul99teklu/AirBnB_clone.svg?branch=master)](https://travis-ci.org/leul99teklu/AirBnB_clone)
+![HBnB Logo](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220829T100744Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=24e2cff08eaac604b278e121919cad63a965d98b55ce62b2186fdd0c9765e544)
