@@ -1,4 +1,4 @@
-# AirBnB_clone [![License: GNU](https://img.shields.io/badge/License-GNU-yellow.svg)](https://github.com/leul99teklu/AirBnB_clone/blob/main/LICENSE)[![AUTHORS](https://img.shields.io/badge/AUTHORS-blue.svg)](https://github.com/leul99teklu/AirBnB_clone/blob/main/AUTHORS)
+# AirBnB_clone [![License: GNU](https://img.shields.io/badge/License-GNU-yellow.svg)](https://github.com/leul99teklu/AirBnB_clone/blob/main/LICENSE)  [![AUTHORS](https://img.shields.io/badge/AUTHORS-blue.svg)](https://github.com/leul99teklu/AirBnB_clone/blob/main/AUTHORS)
 ![HBnB Logo](./image/hbnb_logo.png)
 
 
