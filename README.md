@@ -8,8 +8,10 @@
 - [Contents](#FileContents)
 - [Installation](#Installation)
 - [Usage](#Usage)
+- [Example](#Example)
+- [Authors](#Authors)
 
-## Description :house:
+## Description 
 * This is the first step towards building our first full web application: the AirBnB clone.
 * It consists
 	- a parent class (called BaseModel) to take care of the initialization, serialization and deserialization of your future instances.
@@ -18,7 +20,7 @@
 	- abstracted storage engine of the project: File storage.
 	- validate all our classes and storage engine with proper unittests. 
 
-## Contents :clipboard:
+## Contents 
 
 |   **File**   |   **Description**   |
 | -------------- | --------------------- |
@@ -43,13 +45,13 @@
 |[test_console.py](./tests/test_console.py) | unittests for console |
 
 
-## Installation :hammer_and_wrench:
+## Installation 
 Clone the repository and run the console.py
 ```
 $ git clone https://github.com/------/AirBnB_clone.git
 ```
 
-## Usage :wrench:
+## Usage 
 
 |   **Method**   |   **Description**   |
 | -------------- | --------------------- |
