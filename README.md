@@ -5,9 +5,19 @@
 ### Contents
 
 - [Description](#Description)
+- [Contents](#FileContents)
+- [Installation](#Installation)
+- [Usage](#Usage)
 
 ## Description :house:
 * This is the first step towards building our first full web application: the AirBnB clone.
+
+## Contents :clipboard:
+
+|   **File**   |   **Description**   |
+| -------------- | --------------------- |
+|[AUTHORS](./AUTHORS) | Contains info about authors of the project |
+
 
 
 ### Authors
