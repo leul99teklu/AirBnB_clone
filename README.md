@@ -71,13 +71,13 @@ $ git clone https://github.com/------/AirBnB_clone.git
 (hbnb) create User
 bb4f4b81-7757-460b-9263-743c9ea6fef6
 (hbnb) show User bb4f4b81-7757-460b-9263-743c9ea6fef6
-[User] (bb4f4b81-7757-460b-9263-743c9ea6fef6) {'updated_at': datetime.datetime(2019, 11, 13, 17, 7, 45, 492139), 'id': 'bb4f4b81-7757-460b-9263-743c9ea6fef6', 'created_at': datetime.datetime(2019, 11, 13, 17, 7, 45, 492106)}
+[User] (bb4f4b81-7757-460b-9263-743c9ea6fef6) {'updated_at': datetime.datetime(2021, 10, 31, 17, 7, 45, 492139), 'id': 'bb4f4b81-7757-460b-9263-743c9ea6fef6', 'created_at': datetime.datetime(2021, 10, 31, 17, 7, 45, 492106)}
 (hbnb) all User
-["[User] (bb4f4b81-7757-460b-9263-743c9ea6fef6) {'updated_at': datetime.datetime(2019, 11, 13, 17, 7, 45, 492139), 'id': 'bb4f4b81-7757-460b-9263-743c9ea6fef6', 'created_at': datetime.datetime(2019, 11, 13, 17, 7, 45, 492106)}"]
-(hbnb) update User bb4f4b81-7757-460b-9263-743c9ea6fef6 name Betty
-['User', 'bb4f4b81-7757-460b-9263-743c9ea6fef6', 'name', 'Betty']
+["[User] (bb4f4b81-7757-460b-9263-743c9ea6fef6) {'updated_at': datetime.datetime(2021, 10, 31, 17, 7, 45, 492139), 'id': 'bb4f4b81-7757-460b-9263-743c9ea6fef6', 'created_at': datetime.datetime(2021, 11, 13, 17, 7, 45, 492106)}"]
+(hbnb) update User bb4f4b81-7757-460b-9263-743c9ea6fef6 name Leul
+['User', 'bb4f4b81-7757-460b-9263-743c9ea6fef6', 'name', 'Leul']
 (hbnb) all User
-["[User] (bb4f4b81-7757-460b-9263-743c9ea6fef6) {'updated_at': datetime.datetime(2019, 11, 13, 17, 7, 45, 492139), 'id': 'bb4f4b81-7757-460b-9263-743c9ea6fef6', 'name': 'Betty', 'created_at': datetime.datetime(2019, 11, 13, 17, 7, 45, 492106)}"]
+["[User] (bb4f4b81-7757-460b-9263-743c9ea6fef6) {'updated_at': datetime.datetime(2021, 10, 31, 17, 7, 45, 492139), 'id': 'bb4f4b81-7757-460b-9263-743c9ea6fef6', 'name': 'Leul', 'created_at': datetime.datetime(2021, 10, 31, 17, 7, 45, 492106)}"]
 (hbnb) destroy User bb4f4b81-7757-460b-9263-743c9ea6fef6
 (hbnb) all User
 []
@@ -96,15 +96,15 @@ bb4f4b81-7757-460b-9263-743c9ea6fef6
 (hbnb) User.create()
 e6ee5344-04ef-454d-84e4-ba6fc613f1b4
 (hbnb) User.all()
-["[User] (e6ee5344-04ef-454d-84e4-ba6fc613f1b4) {'id': 'e6ee5344-04ef-454d-84e4-ba6fc613f1b4', 'updated_at': datetime.datetime(2019, 11, 13, 17, 14, 1, 963404), 'created_at': datetime.datetime(2019, 11, 13, 17, 14, 1, 963373)}"]
+["[User] (e6ee5344-04ef-454d-84e4-ba6fc613f1b4) {'id': 'e6ee5344-04ef-454d-84e4-ba6fc613f1b4', 'updated_at': datetime.datetime(2021, 10, 31, 17, 14, 1, 963404), 'created_at': datetime.datetime(2021, 10, 31, 17, 14, 1, 963373)}"]
 (hbnb) User.show()
 ** instance id missing **
 (hbnb) User.show(e6ee5344-04ef-454d-84e4-ba6fc613f1b4)
-[User] (e6ee5344-04ef-454d-84e4-ba6fc613f1b4) {'id': 'e6ee5344-04ef-454d-84e4-ba6fc613f1b4', 'updated_at': datetime.datetime(2019, 11, 13, 17, 14, 1, 963404), 'created_at': datetime.datetime(2019, 11, 13, 17, 14, 1, 963373)}
-(hbnb) User.update("e6ee5344-04ef-454d-84e4-ba6fc613f1b4", "name", "Betty")
-['User', '"e6ee5344-04ef-454d-84e4-ba6fc613f1b4"', '"name"', '"Betty"']
+[User] (e6ee5344-04ef-454d-84e4-ba6fc613f1b4) {'id': 'e6ee5344-04ef-454d-84e4-ba6fc613f1b4', 'updated_at': datetime.datetime(2021, 10, 31, 17, 14, 1, 963404), 'created_at': datetime.datetime(2021, 10, 31, 17, 14, 1, 963373)}
+(hbnb) User.update("e6ee5344-04ef-454d-84e4-ba6fc613f1b4", "name", "Leul")
+['User', '"e6ee5344-04ef-454d-84e4-ba6fc613f1b4"', '"name"', '"Leul"']
 (hbnb) User.all()
-['[User] (e6ee5344-04ef-454d-84e4-ba6fc613f1b4) {\'"name"\': \'"Betty"\', \'id\': \'e6ee5344-04ef-454d-84e4-ba6fc613f1b4\', \'updated_at\': datetime.datetime(2019, 11, 13, 17, 14, 1, 963404), \'created_at\': datetime.datetime(2019, 11, 13, 17, 14, 1, 963373)}']
+['[User] (e6ee5344-04ef-454d-84e4-ba6fc613f1b4) {\'"name"\': \'"Leul"\', \'id\': \'e6ee5344-04ef-454d-84e4-ba6fc613f1b4\', \'updated_at\': datetime.datetime(2021, 10, 31, 17, 14, 1, 963404), \'created_at\': datetime.datetime(2021, 10, 31, 17, 14, 1, 963373)}']
 (hbnb) User.destroy(e6ee5344-04ef-454d-84e4-ba6fc613f1b4)
 (hbnb) User.all()
 []
