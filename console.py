@@ -35,7 +35,7 @@ class HBNBCommand(cmd.Cmd):
     def help_help(self):
         """ Prints help command description """
         print("Provides description of a given command")
-    
+
     def emptyline(self):
         """do nothing when empty line"""
         pass
@@ -87,7 +87,7 @@ class HBNBCommand(cmd.Cmd):
                     print(value)
                     return
             print("** no instance found **")
-            
+
     def do_destroy(self, arg):
         """ Deletes an instance passed """
 
@@ -132,8 +132,8 @@ class HBNBCommand(cmd.Cmd):
                 if ob_name == args[0]:
                     list_instances += [value.__str__()]
             print(list_instances)
-            
-     def do_update(self, arg):
+
+    def do_update(self, arg):
         """ Updates an instance based on the class name and id """
 
         if not arg:
@@ -166,3 +166,14 @@ class HBNBCommand(cmd.Cmd):
                     return
             print("** no instance found **")
 
+    def do_quit(self, line):
+        """ Quit command to exit the command interpreter """
+        return True
+
+    def do_EOF(self, line):
+        """ EOF command to exit the command interpreter """
+        return True
+
+
+if __name__ == '__main__':
+    HBNBCommand().cmdloop()
