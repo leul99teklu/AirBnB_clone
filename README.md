@@ -73,7 +73,7 @@ bb4f4b81-7757-460b-9263-743c9ea6fef6
 (hbnb) show User bb4f4b81-7757-460b-9263-743c9ea6fef6
 [User] (bb4f4b81-7757-460b-9263-743c9ea6fef6) {'updated_at': datetime.datetime(2021, 10, 31, 17, 7, 45, 492139), 'id': 'bb4f4b81-7757-460b-9263-743c9ea6fef6', 'created_at': datetime.datetime(2021, 10, 31, 17, 7, 45, 492106)}
 (hbnb) all User
-["[User] (bb4f4b81-7757-460b-9263-743c9ea6fef6) {'updated_at': datetime.datetime(2021, 10, 31, 17, 7, 45, 492139), 'id': 'bb4f4b81-7757-460b-9263-743c9ea6fef6', 'created_at': datetime.datetime(2021, 11, 13, 17, 7, 45, 492106)}"]
+["[User] (bb4f4b81-7757-460b-9263-743c9ea6fef6) {'updated_at': datetime.datetime(2021, 10, 31, 17, 7, 45, 492139), 'id': 'bb4f4b81-7757-460b-9263-743c9ea6fef6', 'created_at': datetime.datetime(2021, 10, 31, 17, 7, 45, 492106)}"]
 (hbnb) update User bb4f4b81-7757-460b-9263-743c9ea6fef6 name Leul
 ['User', 'bb4f4b81-7757-460b-9263-743c9ea6fef6', 'name', 'Leul']
 (hbnb) all User
